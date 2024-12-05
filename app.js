@@ -12,6 +12,7 @@ const nums2 = nums.map(num => num*2)
 console.log(nums2)
 
 /* Array Destructuring */
+
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
@@ -21,3 +22,18 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 const [firstTopping, secondTopping] = pizzaToppings
 console.log(firstTopping)
 console.log(secondTopping)
+
+/* Object Destructuring */
+
+// Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
+
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Your code here
+
+const { make, model } = car
+console.log(make)
+console.log(model)
