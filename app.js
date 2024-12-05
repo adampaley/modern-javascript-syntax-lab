@@ -9,7 +9,7 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 // Your code here
 
 const nums2 = nums.map(num => num*2)
-console.log(nums2)
+console.log("Double Values:", nums2)
 
 /* Array Destructuring */
 
@@ -20,8 +20,8 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 // Your code here
 
 const [firstTopping, secondTopping] = pizzaToppings
-console.log(firstTopping)
-console.log(secondTopping)
+console.log("First Topping:", firstTopping)
+console.log("Second Topping:", secondTopping)
 
 /* Object Destructuring */
 
@@ -35,8 +35,8 @@ const car = {
   // Your code here
 
 const { make, model } = car
-console.log(make)
-console.log(model)
+console.log("Car Make:", make)
+console.log("Car Model:", model)
 
 /* Applying the Spread Operator on Arrays */
 
@@ -47,4 +47,23 @@ console.log(model)
 // Your code here
 
 const controversialPizzaToppings = [...pizzaToppings]
-console.log(controversialPizzaToppings)
+console.log("Controversial Pizza Toppings:", controversialPizzaToppings)
+
+/* Applying the Spread Operator on Objects */
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
+  
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+  
+// Your code here
+
+const myCar = { ...car }
+myCar.model = 'q7'
+
+console.log("Car:", car)
+console.log("My Car", myCar)
