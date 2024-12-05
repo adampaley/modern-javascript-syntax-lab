@@ -37,3 +37,14 @@ const car = {
 const { make, model } = car
 console.log(make)
 console.log(model)
+
+/* Applying the Spread Operator on Arrays */
+
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies']; // same as above
+
+// Your code here
+
+const controversialPizzaToppings = [...pizzaToppings]
+console.log(controversialPizzaToppings)
