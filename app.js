@@ -80,9 +80,9 @@ const userProfile = {
 }
 console.log("Profile:", userProfile)
 
-/* import and export */
+/* Import and Export */
 
-/* default parameters */
+/* Default Parameters */
 
 // Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
 
@@ -99,3 +99,19 @@ const descriptiveSentence = (noun = "cat", adjective = "white") => {
 
 descriptiveSentence()
 descriptiveSentence("dog", "red")
+
+/* The Ternary Operator */
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+
+console.log(pizza === 'tasty' ? "yum" : "yuck")
