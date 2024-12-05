@@ -79,3 +79,5 @@ const userProfile = {
     [propertyName]: "likeigiveadam"
 }
 console.log("Profile:", userProfile)
+
+/* import and export */
