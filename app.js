@@ -81,3 +81,21 @@ const userProfile = {
 console.log("Profile:", userProfile)
 
 /* import and export */
+
+/* default parameters */
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+const descriptiveSentence = (noun = "cat", adjective = "white") => {
+    console.log(`The ${noun} is ${adjective}.`)
+}
+
+descriptiveSentence()
+descriptiveSentence("dog", "red")
