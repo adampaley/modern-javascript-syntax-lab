@@ -10,3 +10,14 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 const nums2 = nums.map(num => num*2)
 console.log(nums2)
+
+/* Array Destructuring */
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
+
+const [firstTopping, secondTopping] = pizzaToppings
+console.log(firstTopping)
+console.log(secondTopping)
